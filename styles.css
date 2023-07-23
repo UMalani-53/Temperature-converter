@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(169, 212, 208);
+  font-family: Arial, sans-serif;
+}
+h1{
+  margin-left: 500px;
+  padding: 0;
+
+}
+.converter {
+  background-color: #e9e9eb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(187, 22, 22, 0.1);
+  padding: 25px;
+  max-width: 500px;
+  max-height: 200px;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+input[type="number"], select {
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  border: 3px solid #0d0f0e;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #31ed34;
+  border-radius: 4px;
+  color: #880606;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2fb4a2;
+}
+
+#result {
+  margin-top: 10%;
+  font-weight: bold;
+}
